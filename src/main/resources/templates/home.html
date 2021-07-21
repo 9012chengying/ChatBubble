@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.Thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
@@ -9,7 +9,7 @@
     <main>
         <table>
             <tr><td>Names</td></tr>
-            <tr th:each="listOfNames: ${name}">
+            <tr th:each="name: ${listOfNames}">
                 <td th:text="${name.names}"></td>
         </table>
     </main>

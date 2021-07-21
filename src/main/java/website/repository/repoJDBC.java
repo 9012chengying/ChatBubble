@@ -20,6 +20,6 @@ public class repoJDBC implements repo{
     @Override
     public List<dataDTO> getData() {
         return jdbcTemplate.query(
-                "SELECT * FROM testTable;", new mapper());
+                "select * from testTable;", new mapper());
     }
 }
