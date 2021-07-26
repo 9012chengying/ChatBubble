@@ -19,6 +19,8 @@ dependencies {
     runtimeOnly 'mysql:mysql-connector-java'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation group: 'org.webjars', name: 'bootstrap', version: '5.0.0'
+
 }
 
 test {

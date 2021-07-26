@@ -1,0 +1,24 @@
+
+.bg-image{
+    height: 100%;
+    width: 100%;
+    /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0.4)), url;*/
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.signIn-box{
+    height:480px;
+    width:380px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+}
