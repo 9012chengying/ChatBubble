@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class signInController {
-    @RequestMapping("/")
+    @RequestMapping("/signIn")
     public ModelAndView signIn(){
         ModelAndView si = new ModelAndView();
         si.setViewName("signIn");
