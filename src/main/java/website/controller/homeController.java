@@ -8,19 +8,18 @@ import org.springframework.web.servlet.ModelAndView;
 import website.repository.repo;
 
 @Controller
-public class General {
+public class homeController {
 
     private repo Repo;
 
     @Autowired
-    public General(repo pRepo) {
+    public homeController(repo pRepo) {
         Repo = pRepo;
     }
 
     @RequestMapping(path="/home")
     public ModelAndView home(){
         ModelAndView mav = new ModelAndView();
-        mav.addObject("listOfNames", Repo.getData());
         mav.setViewName("home");
         return mav;
     }
