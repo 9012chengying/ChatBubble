@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.Thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/textChatRoom.css">
+    <link rel="stylesheet" href="../static/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../static/css/jquery.emoji.css">
+    <title>Text Chat Room</title>
+</head>
+<body>
+    <div class="main_wrapper">
+        <div class="left">
+            <div class="top">
+                <div class="icon"></div>
+                &nbsp;
+                <span class="user_name">User Name</span>
+            </div>
+            <br><br>
+            <div class="member_list">Member List</div>
+            <ul class="list">
+                <li>Member1</li>
+                <li>Member2</li>
+                <li>Member3</li>
+                <li>Member4</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="right_top">
+                <p class="meeting_name">Meeting Name</p>
+                <button class="to_video_chat_room">Join the video chat room</button>
+            </div>
+            <div class="chat">
+
+            </div>
+            <div class="content">
+                <div class="message_content" contenteditable="true"></div>
+                <div class="emotion_button">
+                    <a href="javascript:;" class="smiley"></a>
+                </div>
+                <button class="send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+    <script src="../static/js/emotion.js"></script>
+    <script src="../static/js/jquery.emoji.js"></script>
+    <script src="../static/js/jquery.mCustomScrollbar.min.js"></script>
+</body>
+</html>
