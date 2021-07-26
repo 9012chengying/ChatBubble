@@ -97,9 +97,10 @@
     height: 100%;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 30px;
     border-bottom: 1px solid #ccc;
-    resize: none;
+    word-break: break-all;
+    overflow: hidden;
 }
 
 .emotion_button {
