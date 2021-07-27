@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
-public class HomeController {
-    @RequestMapping("/")
+public class signInController {
+    @RequestMapping("/signIn")
     public ModelAndView signIn(){
         ModelAndView si = new ModelAndView();
         si.setViewName("signIn");

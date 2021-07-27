@@ -8,7 +8,7 @@ $('.smiley').on('click',function (){
         excludeNums: [41,45,54],
         icons:[{
             name: 'Emoji',
-            path: '../static/imgs/emoji/',
+            path: '/image/emoji/',
             maxNum: 84,
             file: '.png'
         }]
