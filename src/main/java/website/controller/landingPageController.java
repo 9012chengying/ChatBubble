@@ -15,8 +15,8 @@ public class landingPageController {
         return mav;
     }
     //set redirect to landing page if user doesn't enter a specific route
-    @RequestMapping(path = "/" , method= RequestMethod.GET)
-    public String getHomepage() {
+    @RequestMapping(path = "/")
+    public String getlandingPage() {
         return "redirect:/landingPage";
     }
 }
