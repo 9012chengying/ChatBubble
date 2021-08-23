@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23b45a88-5180-4a1f-bfba-cd65429bc17b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databaseSchema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autorenderhint/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/bandwidthconstraints/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/codecpreferences/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/datatracks/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/dominantspeaker/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localmediacontrols/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/public/helpers-video-processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/src/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/src/helpers-video-processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideofilter/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/localvideosnapshot/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/manualrenderhint/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mediadevices/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/networkquality/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/reconnection/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/remotereconnection/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/public/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/public/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/src/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/screenshare/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/util/getroomcredentials.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/util/getsnippet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/util/setupbitrategraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/util/timelinegraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/util/waveform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/public/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/joinroom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/miclevel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/selectmedia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/selectroom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/showerror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/userfriendlyerror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/DTO/dataDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/JdbcServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/controller/homeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/controller/landingPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/controller/signInController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/controller/textChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/model/mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/repository/repo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/website/repository/repoJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/jquery.emoji.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/jquery.mCustomScrollbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/landingPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/signIn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/textChatRoom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/emoji/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/icon.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/signin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/image/smiley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/emotion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.mCustomScrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/Footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/Head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/landingPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signIn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/textChatRoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/MscDissertationApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1wfldfEpBZx7JcBA7gpTyXHeQPl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23b45a88-5180-4a1f-bfba-cd65429bc17b" name="Default Changelist" comment="" />
+      <created>1628857614917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628857614917</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
