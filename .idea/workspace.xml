@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JoinRoomPage/RoomNotFoundMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629737740952</updated>
-      <workItem from="1629737745597" duration="9308000" />
+      <workItem from="1629737745597" duration="11164000" />
     </task>
     <task id="LOCAL-00001" summary="add IntroductionPage.js, can jump to different pages">
       <created>1629739419604</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629746870672</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add message if room not exists">
+      <created>1629747616607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629747616607</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +149,7 @@
     <MESSAGE value="Change title" />
     <MESSAGE value="add input box to join room page" />
     <MESSAGE value="add audio check box" />
-    <option name="LAST_COMMIT_MESSAGE" value="add audio check box" />
+    <MESSAGE value="add message if room not exists" />
+    <option name="LAST_COMMIT_MESSAGE" value="add message if room not exists" />
   </component>
 </project>
