@@ -4,7 +4,7 @@ import "./JoinRoomPage.css";
 import {setIsRoomHost} from "../store/actions";
 import { useLocation } from 'react-router-dom';
 import JoinRoomTitle from "./JoinRoomTitle";
-// import JoinRoomContent from "./JoinRoomContent";
+import JoinRoomContent from "./JoinRoomContent";
 
 const JoinRoomPage = (props) => {
   const { setIsRoomHostAction, isRoomHost } = props;
@@ -23,9 +23,10 @@ const JoinRoomPage = (props) => {
   return <div className='join_room_page_container'>
     <div className='join_room_page_panel'>
       <JoinRoomTitle isRoomHost={isRoomHost}/>
-      {/*<JoinRoomContent />*/}
+      <JoinRoomContent />
     </div>
   </div>;
+
 };
 
 const mapStoreStateToProps = (state) => {

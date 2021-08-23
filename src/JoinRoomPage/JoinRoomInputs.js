@@ -2,12 +2,12 @@ import React from 'react';
 
 const Input = ({ placeholder, value, changeHandler}) => {
     return (
-        <input>
+        <input
             value={value}
             onchange={changeHandler}
             className="join_room_input"
             placeholder={placeholder}
-            ></input>
+            />
     );
 };
 
@@ -22,7 +22,9 @@ const JoinRoomInputs = (props) => {
     const handleNameValueChange = (event) => {
         setNameValue(event.target.value);
     };
-    return <div className="join_room_inputs_container">
+    return (
+
+        <div className="join_room_inputs_container">
         {!isRoomHost && (
             <Input
                 placeholder='Enter meeting ID'
@@ -33,9 +35,10 @@ const JoinRoomInputs = (props) => {
         <Input
         placeholder='Enter your name'
         value={nameValue}
-        changeHandler={handleNameValueChange()}
+        changeHandler={handleNameValueChange}
         />
-    </div>;
+    </div>
+    );
 };
 
 export default JoinRoomInputs;
