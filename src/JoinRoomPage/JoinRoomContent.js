@@ -25,13 +25,29 @@ const JoinRoomContent = (props) => {
     const [nameValue, setNameValue] = useState("");
     const [showRoomNotFoundMessage, setShowRoomNotFoundMessage] = useState(false);
 
-        const history = useHistory();
+    const history = useHistory();
+
+    // const handleJoinToRoom = async () =>{
+    //     setIdentityAction(nameValue);
+    //     if (!isRoomHost) {
+    //         const roomExists =  await checkIfRoomExists(roomIdValue);
+    //         if (roomExists){
+    //             setRoomId(roomIdValue);
+    //             history.push("/room");
+    //         }else{
+    //             setShowRoomNotFoundMessage(true);
+    //         }
+    //     } else{
+    //         setRoomIdAction(uuidv4());
+    //         history.push('/room');
+    //     }
+    // };
 
     const handleJoinToRoom = async () =>{
         setIdentityAction(nameValue);
         if (!isRoomHost) {
-            //check if room exists and if yes join
-        } else{
+            //checkIfRoomExists
+            }else{
             setRoomIdAction(uuidv4());
             history.push('/room');
         }
