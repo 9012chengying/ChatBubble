@@ -23,7 +23,7 @@ const JoinRoomButtons = ({handleJoinToRoom, isRoomHost}) => {
     };
 
     return (
-        <div class="join_room_buttons_container">
+        <div className="join_room_buttons_container">
         <Button
             buttonText={successButtonText}
             onClickHandler={handleJoinToRoom}
