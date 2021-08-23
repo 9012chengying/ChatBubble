@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import RoomPage from './RoomPage/RoomPage';
 import JoinRoomPage from './JoinRoomPage/JoinRoomPage';
-import LandingPage from './LandingPage/LandingPage';
+import IntroductionPage from './IntroductionPage/IntroductionPage';
 import './App.css';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         </Route>
 
         <Route path = '/'>
-             <LandingPage />
+             <IntroductionPage />
         </Route>
     </Switch>
   </Router>

@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc57e9aa-e32e-43c8-a016-ceba6af41cbf" name="Changes" comment=".env">
-      <change afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LandingPage/LandingPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LandingPage/LandingPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.js" afterDir="false" />
+    <list default="true" id="cc57e9aa-e32e-43c8-a016-ceba6af41cbf" name="Changes" comment="&#10;Setting routs for pages.">
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LandingPage/LandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/LandingPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LandingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LandingPage/LandingPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +50,14 @@
       <option name="presentableId" value="Default" />
       <updated>1629729171343</updated>
     </task>
+    <task id="LOCAL-00001" summary="&#10;Setting routs for pages.">
+      <created>1629735002942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629735002942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +71,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#10;Setting routs for pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Setting routs for pages." />
   </component>
 </project>
