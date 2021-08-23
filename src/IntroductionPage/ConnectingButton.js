@@ -1,10 +1,6 @@
 import React from 'react';
 
-const ConnectingButton = ({
-                              createRoomButton = false,
-                              buttonText,
-                              onClickHandler
-}) => {
+const ConnectingButton = ({createRoomButton = false, buttonText, onClickHandler}) => {
     const buttonClass = createRoomButton
         ? 'create_room_button'
         : 'join_room_button';
