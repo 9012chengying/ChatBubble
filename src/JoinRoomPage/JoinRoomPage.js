@@ -12,19 +12,18 @@ const JoinRoomPage = (props) => {
   const search = useLocation().search;
 
   useEffect(() =>{
-    const isRoomHost = new URLSearchParams(search).get('host');
+    const isRoomHost = new URLSearchParams(search).get("host");
     if (isRoomHost){
-      //change information about it in our store
       setIsRoomHostAction(true);
     }
   }, []);
 
-  return <div className='join_room_page_container'>
-    <div className='join_room_page_panel'>
-      <JoinRoomTitle isRoomHost={isRoomHost}/>
-      <JoinRoomContent />
-    </div>
-  </div>;
+  return    <div className='join_room_page_container'>
+        <div className='join_room_page_panel'>
+            <JoinRoomTitle isRoomHost={isRoomHost} />
+            <JoinRoomContent />
+        </div>
+      </div>;
 
 };
 
