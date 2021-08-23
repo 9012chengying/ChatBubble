@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IntroductionPage/ConnectingButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroductionPage/ConnectingButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +36,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/IntroductionPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\store" />
+      <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\JoinRoomPage" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\IntroductionPage" />
     </key>
   </component>
@@ -66,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629737740952</updated>
-      <workItem from="1629737745597" duration="1391000" />
+      <workItem from="1629737745597" duration="3215000" />
     </task>
+    <task id="LOCAL-00001" summary="add IntroductionPage.js, can jump to different pages">
+      <created>1629739419604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629739419604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add IntroductionPage.js, can jump to different pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add IntroductionPage.js, can jump to different pages" />
   </component>
 </project>
