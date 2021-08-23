@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629737740952</updated>
-      <workItem from="1629737745597" duration="12749000" />
+      <workItem from="1629737745597" duration="14107000" />
     </task>
     <task id="LOCAL-00001" summary="add IntroductionPage.js, can jump to different pages">
       <created>1629739419604</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629749277613</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="join room as a host">
+      <created>1629750885744</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629750885744</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +166,7 @@
     <MESSAGE value="add audio check box" />
     <MESSAGE value="add message if room not exists" />
     <MESSAGE value="create join &amp; cancel buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="create join &amp; cancel buttons" />
+    <MESSAGE value="join room as a host" />
+    <option name="LAST_COMMIT_MESSAGE" value="join room as a host" />
   </component>
 </project>

@@ -1,9 +1,10 @@
 import React, {useEffect} from "react";
 import logo from "../resources/images/logo.png"
-import "./IntroductionPage.css";
 import ConnectingButtons from "./ConnectingButtons";
 import { connect } from "react-redux";
 import {setIsRoomHost} from "../store/actions";
+
+import "./IntroductionPage.css";
 
 const IntroductionPage = ({ setIsRoomHostAction }) => {
   useEffect(() => {
