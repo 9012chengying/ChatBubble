@@ -4,7 +4,7 @@ const Input = ({ placeholder, value, changeHandler}) => {
     return (
         <input
             value={value}
-            onchange={changeHandler}
+            onChange={changeHandler}
             className="join_room_input"
             placeholder={placeholder}
             />

@@ -3,7 +3,6 @@ import ConnectingButton from "./ConnectingButton";
 import {useHistory} from 'react-router-dom';
 
 const ConnectingButtons = () => {
-
     let history = useHistory();
 
     const pushToJoinRoomPage = () => {
