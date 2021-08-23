@@ -28,7 +28,7 @@ const JoinRoomContent = (props) => {
         const history = useHistory();
 
     const handleJoinToRoom = async () =>{
-        setIdentity(nameValue);
+        setIdentityAction(nameValue);
         if (!isRoomHost) {
             //check if room exists and if yes join
         } else{
