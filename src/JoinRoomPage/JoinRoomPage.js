@@ -33,7 +33,7 @@ const mapStoreStateToProps = (state) => {
     ...state,
   };
 };
-
+//add a route
 const mapDispatchToProps = (dispatch) => {
   return {
     setIsRoomHostAction: (isRoomHost) => dispatch(setIsRoomHost(isRoomHost)),
