@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23b45a88-5180-4a1f-bfba-cd65429bc17b" name="Default Changelist" comment="Initial Comit for the React redux template.">
-      <change afterPath="$PROJECT_DIR$/app/src/app/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/counter/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/counter/Counter.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/counter/counterAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/counter/counterSlice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/features/counter/counterSlice.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/setupTests.js" beforeDir="false" />
+    <list default="true" id="cc57e9aa-e32e-43c8-a016-ceba6af41cbf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,72 +15,30 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1wfldfEpBZx7JcBA7gpTyXHeQPl" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1x8GBuu5o9Lpv9yBeRHWICfM5R5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23b45a88-5180-4a1f-bfba-cd65429bc17b" name="Default Changelist" comment="" />
-      <created>1628857614917</created>
+      <changelist id="cc57e9aa-e32e-43c8-a016-ceba6af41cbf" name="Changes" comment="" />
+      <created>1629729171343</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628857614917</updated>
+      <updated>1629729171343</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial Comit for the React redux template.">
-      <created>1629726852281</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1629726852281</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial Comit for the React redux template.">
-      <created>1629726897711</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1629726897711</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial Comit for the React redux template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Comit for the React redux template." />
   </component>
 </project>
