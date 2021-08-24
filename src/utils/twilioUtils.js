@@ -7,7 +7,6 @@ import {
     LocalDataTrack,
     LocalVideoTrack
 } from "twilio-video";
-import {setShowOverlay} from "../store/actions";
 
 const audioConstraints = {
     video: false,
@@ -28,6 +27,7 @@ export const getTokenFromTwilio = async(setAccessToken, identity) => {
     console.log(identity);
 
     const response = await axios.get(
+        // eslint-disable-next-line no-template-curly-in-string
         'https://msc-dessertation-project-2021-7630-dev.twil.io/twilio-token-service?identity=${randomId}${identity}'
     );
 
@@ -65,10 +65,9 @@ export const connectToRoom = async (
             name: roomId,
             tracks
         });
-        console.log("successfully connected with twilio room");
+        console.log("successfully connect twilio room");
         console.log(room);
         setRoom(room);
-        store.dispatch(setShowOverlay(false));
     }).catch((err) => {
         console.log("Error occurred when trying to get an access to local devices");
         console.log(err);
