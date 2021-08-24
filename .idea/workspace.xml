@@ -8,10 +8,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="Added action for setting participants for a room.">
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="Adding participant to store if not already in store. using identity.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629842366591</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding participant to store if not already in store. using identity.">
+      <created>1629845800116</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629845800116</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +215,7 @@
     <MESSAGE value="add message if room not exists" />
     <MESSAGE value="create join &amp; cancel buttons" />
     <MESSAGE value="Added action for setting participants for a room." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added action for setting participants for a room." />
+    <MESSAGE value="Adding participant to store if not already in store. using identity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding participant to store if not already in store. using identity." />
   </component>
 </project>
