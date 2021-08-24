@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import VideoButtons from "./VideoButtons";
+import Videos from "./Videos";
 
 const VideoSection = () => {
-    return(
+    const [room, setRoom] = useState(null);
+
+    return (
         <div className="video_section_container">
-            videoSection
+            <Videos room={room} setRoom={setRoom} />
+            <VideoButtons room={room} />
         </div>
     );
 };
