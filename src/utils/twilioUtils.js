@@ -7,6 +7,7 @@ import {
     LocalDataTrack,
     LocalVideoTrack
 } from "twilio-video";
+import {setShowOverlay} from "../store/actions";
 
 const audioConstraints = {
     video: false,
@@ -64,8 +65,10 @@ export const connectToRoom = async (
             name: roomId,
             tracks
         });
-
+        console.log("successfully connected with twilio room");
+        console.log(room);
         setRoom(room);
+        store.dispatch(setShowOverlay(false));
     }).catch((err) => {
         console.log("Error occurred when trying to get an access to local devices");
         console.log(err);
