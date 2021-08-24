@@ -8,16 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/RoomPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/twilioUtils.js" afterDir="false" />
-    </list>
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +48,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021" />
@@ -64,20 +58,15 @@
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\JoinRoomPage" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\IntroductionPage" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources/images" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
