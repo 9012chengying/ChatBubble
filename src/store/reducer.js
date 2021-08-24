@@ -7,7 +7,7 @@ const initState = {
   roomId:null,
   twilioAccessToken:null,
   showOverlay: true,
-  participants: []
+  participants: [],
 };
 
 const reducer = (state = initState, action) => {
