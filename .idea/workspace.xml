@@ -10,10 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/twilioUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
