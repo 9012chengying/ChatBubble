@@ -11,11 +11,10 @@ const VideoTrack = ({ track }) => {
         trackRef.current.classList.add(track.kind);
         trackRef.current.appendChild(child);
 
-        const videosPortal = document.getElementById('videos_portal');
+        const videosPortal = document.getElementById("videos_portal");
 
-        //for styling of many video pictures
-        if (!videosPortal.classList.contains('videos_portal_styles')) {
-            videosPortal.classList.add('videos_portal_styles');
+        if (!videosPortal.classList.contains("videos_portal_styles")) {
+            videosPortal.classList.add("videos_portal_styles");
         }
     }, []);
 
