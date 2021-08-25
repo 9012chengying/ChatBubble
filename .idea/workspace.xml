@@ -8,10 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="added camera buttons logic to start/stop camera">
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/Overlay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/MicButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/MicButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" />
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix for syntax">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629856757922</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="hotfix for syntax">
+      <created>1629857613669</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1629857613669</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +305,7 @@
     <MESSAGE value="hopefully sorting rendering for video tracks. needs to be placed better in html. + minor bug fixes." />
     <MESSAGE value="camera positions sorted with styling and html." />
     <MESSAGE value="added camera buttons logic to start/stop camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="added camera buttons logic to start/stop camera" />
+    <MESSAGE value="hotfix for syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix for syntax" />
   </component>
 </project>

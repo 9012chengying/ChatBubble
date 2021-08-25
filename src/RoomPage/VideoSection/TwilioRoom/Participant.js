@@ -50,13 +50,15 @@ class Participant extends Component {
     //same for remove
     removeTrack(track) {
         if (track) {
-            const newTracks = this.state.tracks.filter((t) => t.name !== track.track.Name);
-        };
-        //uses temp array for the filter then replaces after.
-        this.setState({
-            tracks: newTracks,
-        })
-    };
+            const newTracks = this.state.tracks.filter(
+                (t) => t.name !== track.trackName
+            );
+
+            this.setState({
+                tracks: newTracks,
+            });
+        }
+    }
 
     //html render
     //splits tracks based on kind.

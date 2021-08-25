@@ -11,7 +11,7 @@ const VideoTrack = ({ track }) => {
         trackRef.current.classList.add(track.kind);
         trackRef.current.appendChild(child);
 
-        const videoPortal = document.getElementById('videos_portal')
+        const videosPortal = document.getElementById('videos_portal');
 
         //for styling of many video pictures
         if (!videosPortal.classList.contains('videos_portal_styles')) {
@@ -30,4 +30,4 @@ const VideoTrack = ({ track }) => {
     return ReactDOM.createPortal(content, document.getElementById('videos_portal'));
 };
 
-export default AudioTrack;
+export default VideoTrack;
