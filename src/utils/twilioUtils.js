@@ -5,21 +5,22 @@ import {
     connect,
     LocalAudioTrack,
     LocalDataTrack,
-    LocalVideoTrack
+    LocalVideoTrack,
 } from "twilio-video";
+import { setShowOverlay } from "../store/actions";
 
 const audioConstraints = {
     video: false,
     audio: true
-}
+};
 
 const videoConstraints= {
     audio: true,
     video: {
         width: 640,
-        height: 480
-    }
-}
+        height: 480,
+    },
+};
 
 export const getTokenFromTwilio = async(setAccessToken, identity) => {
     const randomId = uuidv4();
@@ -27,8 +28,7 @@ export const getTokenFromTwilio = async(setAccessToken, identity) => {
     console.log(identity);
 
     const response = await axios.get(
-        // eslint-disable-next-line no-template-curly-in-string
-        'https://msc-dessertation-project-2021-7630-dev.twil.io/twilio-token-service?identity=${randomId}${identity}'
+        `https://msc-dessertation-project-2021-7630-dev.twil.io/twilio-token-service?identity=${randomId}${identity}`
     );
 
     const data = response.data;
