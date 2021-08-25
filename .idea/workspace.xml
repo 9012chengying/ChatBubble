@@ -8,7 +8,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js" />
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/twilioUtils.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Development_NEW" />
+        <entry key="$PROJECT_DIR$" value="VideoChatApp-Service" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,19 +102,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -311,23 +304,5 @@
     <MESSAGE value="added camera buttons logic to start/stop camera" />
     <MESSAGE value="hotfix accesstoken url in twilioUtils.js" />
     <option name="LAST_COMMIT_MESSAGE" value="hotfix accesstoken url in twilioUtils.js" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1629866397354">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629866397354" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1629866397354">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629866397354" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1629866397353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629866397353" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1629866397354">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629866397354" />
   </component>
 </project>

@@ -11,6 +11,7 @@ import RoomNotFoundMessage from "./RoomNotFoundMessage";
 import JoinRoomButtons from "./JoinRoomButtons";
 import {useHistory} from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
+import { checkIfRoomExists } from "../utils/twilioUtils"
 
 const JoinRoomContent = (props) => {
     const {
@@ -19,7 +20,7 @@ const JoinRoomContent = (props) => {
         connectOnlyWithAudio,
         setRoomIdAction,
         setIdentityAction,
-        showLoadingOverlay,
+        setShowLoadingOverlay,
     } = props;
 
     const [roomIdValue, setRoomIdValue] = useState("");
@@ -28,33 +29,33 @@ const JoinRoomContent = (props) => {
 
     const history = useHistory();
 
-    // const handleJoinToRoom = async () =>{
-    //     setIdentityAction(nameValue);
-    //     if (!isRoomHost) {
-    //          showLoadingOverlay(true);
-    //         const roomExists =  await checkIfRoomExists(roomIdValue);
-    //          setShowLoadingOverlay(false);
-    //         if (roomExists){
-    //             setRoomId(roomIdValue);
-    //             history.push("/room");
-    //         }else{
-    //             setShowRoomNotFoundMessage(true);
-    //         }
-    //     } else{
-    //         setRoomIdAction(uuidv4());
-    //         history.push('/room');
-    //     }
-    // };
-
     const handleJoinToRoom = async () =>{
         setIdentityAction(nameValue);
         if (!isRoomHost) {
-            //checkIfRoomExists
+             setShowLoadingOverlay(true);
+            const roomExists =  await checkIfRoomExists(roomIdValue);
+             setShowLoadingOverlay(false);
+            if (roomExists){
+                setRoomId(roomIdValue);
+                history.push("/room");
             }else{
+                setShowRoomNotFoundMessage(true);
+            }
+        } else{
             setRoomIdAction(uuidv4());
             history.push('/room');
         }
     };
+
+    // const handleJoinToRoom = async () =>{
+    //     setIdentityAction(nameValue);
+    //     if (!isRoomHost) {
+    //         //checkIfRoomExists
+    //         }else{
+    //         setRoomIdAction(uuidv4());
+    //         history.push('/room');
+    //     }
+    // };
 
     return (
         <>

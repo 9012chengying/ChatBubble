@@ -76,7 +76,7 @@ export const connectToRoom = async (
 
 export const checkIfRoomExists = async (roomId) =>{
     const response = await axios.get(
-        'https:'
+        `https://msc-dessertation-project-2021-7630-dev.twil.io/room-exists?${roomId}`
     );
 
     return response.data.roomExists;
