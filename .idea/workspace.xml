@@ -8,10 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="added camera buttons logic to start/stop camera">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" afterDir="false" />
-    </list>
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +73,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
@@ -98,6 +96,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -253,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629856757922</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="hotfix accesstoken url in twilioUtils.js">
+      <created>1629872759416</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1629872759416</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +309,8 @@
     <MESSAGE value="hopefully sorting rendering for video tracks. needs to be placed better in html. + minor bug fixes." />
     <MESSAGE value="camera positions sorted with styling and html." />
     <MESSAGE value="added camera buttons logic to start/stop camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="added camera buttons logic to start/stop camera" />
+    <MESSAGE value="hotfix accesstoken url in twilioUtils.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix accesstoken url in twilioUtils.js" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1629866397354">
