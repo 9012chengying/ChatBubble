@@ -1,4 +1,4 @@
-import Reac, { Component } from 'react';
+import React, { Component } from 'react';
 import AudioTrack from './AudioTrack';
 import VideoTrack from './VideoTrack';
 
@@ -9,11 +9,14 @@ class Participant extends Component {
     constructor(props) {
         super(props);
 
-        const existingPublications = Array.from(this.props.participant.tracks.values());
+        const existingPublications = Array.from(
+            this.props.participant.tracks.values()
+        );
 
-        const existingTracks = existingPublications.map((publication) => publication.track);
+        const existingTracks = existingPublications.map(
+            (publication) => publication.track
+        );
 
-        //only want tracks that exist, ie if no video then not needed.
         const nonNullTracks = existingTracks.filter((track) => track !== null);
 
         this.state = {
@@ -23,20 +26,19 @@ class Participant extends Component {
     componentDidMount() {
         //if not the local user so we can pass the camera of the user to this
         if (!this.props.localParticipant) {
-            //listerner for more tracks... to add
-            this.props.participant.on('trackSubscribed', (track) => {
-                if (track.kind === 'data') {
-                    ///add chat log
+            this.props.participant.on("trackSubscribed", (track) => {
+                if (track.kind === "data") {
+                    /// add  chat logic
                 } else {
                     this.addTrack(track);
                 }
             });
-            //listern for tracks to remove when user leave.
-            this.props.participant.on('trackUnpublished', (track) => {
+
+            this.props.participant.on("trackUnpublished", (track) => {
                 this.removeTrack(track);
             });
-        };
-    };
+        }
+    }
 
     //add track to list of tracks. only if track not null/
     addTrack(track) {
@@ -45,18 +47,20 @@ class Participant extends Component {
                 tracks: [...this.state.tracks, track],
             });
         }
-    };
+    }
 
     //same for remove
     removeTrack(track) {
         if (track) {
-            const newTracks = this.state.tracks.filter((t) => t.name !== track.track.Name);
-        };
-        //uses temp array for the filter then replaces after.
-        this.setState({
-            tracks: newTracks,
-        })
-    };
+            const newTracks = this.state.tracks.filter(
+                (t) => t.name !== track.trackName
+            );
+
+            this.setState({
+                tracks: newTracks,
+            });
+        }
+    }
 
     //html render
     //splits tracks based on kind.
