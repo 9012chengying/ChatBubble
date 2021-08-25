@@ -8,10 +8,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="Adding and removing participants from store to display later. Cant test atm as something else needs to be updated first. sets state for the participants as well.">
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="Displaying names of connecteed users. from store.">
+      <change afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/ParticipantsSection/Participants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/ParticipantsSection/Participants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629847090316</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Displaying names of connecteed users. from store.">
+      <created>1629852020476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629852020476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +231,7 @@
     <MESSAGE value="Added action for setting participants for a room." />
     <MESSAGE value="Adding participant to store if not already in store. using identity." />
     <MESSAGE value="Adding and removing participants from store to display later. Cant test atm as something else needs to be updated first. sets state for the participants as well." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding and removing participants from store to display later. Cant test atm as something else needs to be updated first. sets state for the participants as well." />
+    <MESSAGE value="Displaying names of connecteed users. from store." />
+    <option name="LAST_COMMIT_MESSAGE" value="Displaying names of connecteed users. from store." />
   </component>
 </project>
