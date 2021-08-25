@@ -58,7 +58,7 @@ class TwilioRoom extends Component {
     //When participant join will console log the person joining.
     //Will set state for that person.
     addParticipant(participant) {
-        console.log('${participant.identity} has joined the room');
+        console.log(`${participant.identity} has joined the room`);
         this.addParticipantToStore(participant);
 
         this.setState({
@@ -69,7 +69,7 @@ class TwilioRoom extends Component {
     //When leaving will set state for that person.
     //Again loops through to find correct person.
     removeParticipant(participant) {
-        console.log('${participant.identity} has left the room');
+        console.log(`${participant.identity} has left the room`);
         this.removeParticipantFromStore(participant);
         this.setState({
             remoteParticipants: this.state.remoteParticipants.filter((p) => p.identity !== participant.identity),

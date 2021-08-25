@@ -9,12 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="added camera buttons logic to start/stop camera">
-      <change afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/LocalScreenSharingPreview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/SwitchToScreenSharingButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/SwitchToScreenSharingButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/TwilioRoom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +119,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
