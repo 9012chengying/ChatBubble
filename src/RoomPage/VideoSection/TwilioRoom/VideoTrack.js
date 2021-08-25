@@ -10,6 +10,13 @@ const VideoTrack = ({ track }) => {
         const child = track.attach();
         trackRef.current.classList.add(track.kind);
         trackRef.current.appendChild(child);
+
+        const videoPortal = document.getElementById('videos_portal')
+
+        //for styling of many video pictures
+        if (!videosPortal.classList.contains('videos_portal_styles')) {
+            videosPortal.classList.add('videos_portal_styles');
+        }
     }, []);
 
     //name is for the video containers

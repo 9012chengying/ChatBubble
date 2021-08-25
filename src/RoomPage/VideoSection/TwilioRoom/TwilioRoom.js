@@ -84,7 +84,9 @@ class TwilioRoom extends Component {
                 <div className='participants'>
                     <Participant key={this.props.room.localParticipant.identity} localParticipant participant={this.props.room.localParticipant} />
                     {this.state.remoteParticipants.map((participant) => {
-                        <Participant key={participant.identity} participant={participant} />;
+                        return (
+                        <Participant key={participant.identity} participant={participant} />
+                        );
                     })}
                 </div>
             </div>
