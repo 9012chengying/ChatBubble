@@ -1,8 +1,10 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
+//only want to return the name after the code so slice to split.
 const SingleParticipant = ({identity, lastItem}) => {
     const getParticipantName = (identity) => {
-        return identity;
+        return identity.slice(36, identity.length);
     }
 
     return(
@@ -13,22 +15,8 @@ const SingleParticipant = ({identity, lastItem}) => {
     );
 };
 
-const participants = [
-    {
-        identity: "Nikolas",
-    },
-    {
-        identity: "Mary",
-    },
-    {
-        identity: "Bill",
-    },
-    {
-        identity: "Mark",
-    },
-];
 
-const Participants = () => {
+const Participants = ({ participants }) => {
     return (
         <div className='participants_container'>
             {participants.map((participant, index) => {
@@ -42,4 +30,12 @@ const Participants = () => {
     );
 };
 
-export default Participants;
+//for list of participants to display.
+const mapStoreStateToProps = (state) => {
+    return {
+        ...state,
+    };
+};
+
+//should export the participants from the store.
+export default connect(mapStoreStateToProps)(Participants);
