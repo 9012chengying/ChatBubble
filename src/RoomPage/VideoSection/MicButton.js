@@ -22,6 +22,7 @@ const MicButton = ({ room }) => {
         // turn on mic back
         room.localParticipant.audioTracks.forEach((localAudioTrackPublication) => {
             localAudioTrackPublication.track.enable();
+        })
     };
 
     return (

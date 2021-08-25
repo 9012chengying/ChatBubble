@@ -9,7 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="added camera buttons logic to start/stop camera">
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/Overlay.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/MicButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/MicButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,7 @@
   </component>
   <component name="ProjectId" id="1x8XYQfrRU3czfmaK09nMjIOlT1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -80,15 +83,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\store" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\JoinRoomPage" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\IntroductionPage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/images" />
     </key>
   </component>
   <component name="RunManager">
