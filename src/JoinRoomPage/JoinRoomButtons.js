@@ -29,10 +29,10 @@ const JoinRoomButtons = ({handleJoinToRoom, isRoomHost}) => {
             onClickHandler={handleJoinToRoom}
         />
         <Button
-            buttonText="Cancel"
-            cancelButton
-            onClickHandler={pushToIntroductionPage}
-        ></Button>
+    buttonText="Cancel"
+    cancelButton
+    onClickHandler={pushToIntroductionPage}
+    />
         </div>
     );
 };

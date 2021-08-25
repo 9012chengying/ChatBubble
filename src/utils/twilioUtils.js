@@ -68,6 +68,7 @@ export const connectToRoom = async (
         console.log("successfully connect twilio room");
         console.log(room);
         setRoom(room);
+        store.dispatch(setShowOverlay(false));
     }).catch((err) => {
         console.log("Error occurred when trying to get an access to local devices");
         console.log(err);

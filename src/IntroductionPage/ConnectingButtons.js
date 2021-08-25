@@ -6,11 +6,11 @@ const ConnectingButtons = () => {
     let history = useHistory();
 
     const pushToJoinRoomPage = () => {
-        history.push('/join-room');
+        history.push("/join-room");
     }
 
     const pushToJoinRoomPageAsHost = () => {
-        history.push('/join-room?host=true');
+        history.push("/join-room?host=true");
     }
 
     return (

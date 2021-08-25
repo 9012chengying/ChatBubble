@@ -39,7 +39,7 @@ export const setRoomId = (roomId) => {
 export const setTwilioAccessToken = (token) => {
     return {
         type: Actions.SET_TWILIO_ACCESS_TOKEN,
-        accessToken: token,
+        token,
     };
 };
 

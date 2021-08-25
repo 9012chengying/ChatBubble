@@ -24,11 +24,11 @@ class TwilioRoom extends Component {
     }
 
     componentDidMount() {
-        this.props.room.on('participantConnected', (participant) =>
+        this.props.room.on("participantConnected", (participant) =>
             this.addParticipant(participant)
         );
 
-        this.props.room.on('participantDisconnected' , (participant) => {
+        this.props.room.on("participantDisconnected" , (participant) => {
             this.removeParticipant(participant);
         });
     }
@@ -51,7 +51,9 @@ class TwilioRoom extends Component {
     //Removing participants from store when they leave.
     //Checks to find the participant to remove.
     removeParticipantFromStore(participant) {
-        const participants = store.getState().participants.filter(p => p.identity !== participant.identity);
+        const participants = store
+            .getState()
+            .participants.filter((p) => p.identity !== participant.identity);
         store.dispatch(setParticipants(participants));
     }
 
