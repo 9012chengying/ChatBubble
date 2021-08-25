@@ -8,8 +8,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing.">
-      <change afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" afterDir="false" />
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="Same for video tacks. will need to sort the react portal for rendering.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629853966075</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Same for video tacks. will need to sort the react portal for rendering.">
+      <created>1629854303931</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629854303931</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +257,7 @@
     <MESSAGE value="Displaying names of connecteed users. from store." />
     <MESSAGE value="adding tracks for each participant. listerners added for them. participant.js added for functions. sets state for adding and removing tracks. tracks being either audio or video." />
     <MESSAGE value="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing." />
+    <MESSAGE value="Same for video tacks. will need to sort the react portal for rendering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Same for video tacks. will need to sort the react portal for rendering." />
   </component>
 </project>

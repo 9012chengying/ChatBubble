@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import ReactDOM from 'react-dom';
 
 const VideoTrack = ({ track} ) => {
     const trackRef = useRef();
@@ -13,11 +14,13 @@ const VideoTrack = ({ track} ) => {
 
     //name is for the video containers
     //ref set to the track kind
-    return (
-        <div className='video_track_container' ref={trackRef}>
-
+    const content (
+        <div className='video_track_container'>
+            <div ref={trackRef}></div>
         </div>
     )
+
+    return ReactDOM.createPortal(content, document.getElementById('videos_portal'));
 };
 
 export default AudioTrack;

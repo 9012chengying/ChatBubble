@@ -63,10 +63,10 @@ class Participant extends Component {
                 <div className='participant' id={this.props.participant.identity}>
                     {this.state.tracks.map((track) => {
                         if (track.kind === 'audio') {
-                            return (<div>AudioTrack</div>);
+                            return (<AudioTrack key={track} track={track} />);
                         }
                         if (track.kind === 'video') {
-                            return (<div>VideoTrack</div>);
+                            return (<VideoTrack key={track} track={track} />);
                         }
                     })}
                 </div>
