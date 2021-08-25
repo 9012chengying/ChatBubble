@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Participant from './Participant';
+import { setParticipants } from '../../../store/actions';
 import { store } from '../../../store/store';
 
 
@@ -75,10 +77,18 @@ class TwilioRoom extends Component {
     }
 
     //render page.
+    //divs for each participant made for video
     render() {
         return(
-            <div>Participants</div>
-        )
+            <div className='room'>
+                <div className='participants'>
+                    <Participant key={this.props.room.localParticipant.identity} localParticipant participant={this.props.room.localParticipant} />
+                    {this.state.remoteParticipants.map((participant) => {
+                        <Participant key={participant.identity} participant={participant} />;
+                    })}
+                </div>
+            </div>
+        );
     }
 }
 

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-const AudioTrack = () => {
+const AudioTrack = ({ track }) => {
     const trackRef = useRef();
 
     //track.attach, adds the video or audio to the html element.

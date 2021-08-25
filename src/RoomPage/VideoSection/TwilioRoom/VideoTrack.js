@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
-const VideoTrack = ({ track} ) => {
+const VideoTrack = ({ track }) => {
     const trackRef = useRef();
 
     //to add track
@@ -14,11 +14,11 @@ const VideoTrack = ({ track} ) => {
 
     //name is for the video containers
     //ref set to the track kind
-    const content (
+    const content = (
         <div className='video_track_container'>
             <div ref={trackRef}></div>
         </div>
-    )
+    );
 
     return ReactDOM.createPortal(content, document.getElementById('videos_portal'));
 };
