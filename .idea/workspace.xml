@@ -8,9 +8,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="adding tracks for each participant. listerners added for them. participant.js added for functions. sets state for adding and removing tracks. tracks being either audio or video.">
-      <change afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/AudioTrack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing.">
+      <change afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/VideoTrack.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629853486071</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing.">
+      <created>1629853966075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629853966075</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +246,7 @@
     <MESSAGE value="Adding and removing participants from store to display later. Cant test atm as something else needs to be updated first. sets state for the participants as well." />
     <MESSAGE value="Displaying names of connecteed users. from store." />
     <MESSAGE value="adding tracks for each participant. listerners added for them. participant.js added for functions. sets state for adding and removing tracks. tracks being either audio or video." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding tracks for each participant. listerners added for them. participant.js added for functions. sets state for adding and removing tracks. tracks being either audio or video." />
+    <MESSAGE value="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="simple way for adding audio tracks for html element. i think our own audio track is muted by default but may need testing." />
   </component>
 </project>
