@@ -75,7 +75,7 @@ class TwilioRoom extends Component {
         this.removeParticipantFromStore(participant);
         this.setState({
             remoteParticipants: this.state.remoteParticipants.filter((p) => p.identity !== participant.identity),
-        })
+        });
     }
 
     //render page.

@@ -11,7 +11,7 @@ const SwitchToScreenSharingButton = ({ room }) => {
     const handleScreenSharingEnabling = () => {
         // handle screen sharing
         if (!isScreenSharingActive) {
-            navigator.mediaDevices.getDisplayMedia()
+            navigator.mediaDevices.getDisplayMedia() //To be given an access to screen share stream
                 .then(stream => {
                     setScreenShareStream(stream);
                     setIsScreenSharingActive(true);

@@ -11,7 +11,7 @@ import RoomNotFoundMessage from "./RoomNotFoundMessage";
 import JoinRoomButtons from "./JoinRoomButtons";
 import {useHistory} from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
-import { checkIfRoomExists } from "../utils/twilioUtils"
+import { checkIfRoomExists } from "../utils/twilioUtils";
 
 const JoinRoomContent = (props) => {
     const {
@@ -84,7 +84,7 @@ const mapDispatchToProps = (dispatch) => {
         setConnectOnlyWithAudioAction: (onlyWithAudio) =>
             dispatch(setConnectOnlyWithAudio(onlyWithAudio)),
         setIdentityAction: (identity) => dispatch(setIdentity(identity)),
-        setRoomIdAction: (id) => dispatch(setRoomId(id))
+        setRoomIdAction: (id) => dispatch(setRoomId(id)),
     };
 };
 

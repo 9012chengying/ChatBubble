@@ -10,11 +10,11 @@ import Overlay from "./Overlay";
 import "./RoomPage.css";
 
 
-
 const RoomPage = (props) => {
     const { identity, setTwilioAccessTokenAction, showOverlay } =props;
 
     useEffect(() => {
+        // Pass setTwilioAccessTokenAction function to change the store state
         getTokenFromTwilio(setTwilioAccessTokenAction, identity);
         },[]);
 

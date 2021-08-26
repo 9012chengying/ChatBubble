@@ -23,15 +23,16 @@ const videoConstraints= {
 };
 
 export const getTokenFromTwilio = async(setAccessToken, identity) => {
-    const randomId = uuidv4();
+    const randomId = uuidv4(); // Generate random id, add to identity
 
     console.log(identity);
 
+    // Send a get request to the twilio-token-service to get an access token
     const response = await axios.get(
         `https://msc-dessertation-project-2021-7630-dev.twil.io/twilio-token-service?identity=${randomId}${identity}`
     );
 
-    const data = response.data;
+    const data = response.data; // Get data from the response
 
     if(data.accessToken) {
         setAccessToken(data.accessToken);

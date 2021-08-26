@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 const SingleParticipant = ({identity, lastItem}) => {
     const getParticipantName = (identity) => {
         return identity.slice(36, identity.length);
-    }
+    };
 
     return(
         <>
@@ -18,13 +18,15 @@ const SingleParticipant = ({identity, lastItem}) => {
 
 const Participants = ({ participants }) => {
     return (
-        <div className='participants_container'>
+        <div className="participants_container">
             {participants.map((participant, index) => {
-                return <SingleParticipant
-                            key = {participant.identity}
-                            identity = {participant.identity}
-                            lastItem = {participant.length ===index +1}>
-                        </SingleParticipant>;
+                return (
+                    <SingleParticipant
+                        key={participant.identity}
+                        identity={participant.identity}
+                        lastItem={participants.length === index + 1}
+                    />
+                );
             })}
         </div>
     );
