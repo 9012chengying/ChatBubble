@@ -19,7 +19,7 @@ class TwilioRoom extends Component {
         };
 
         remoteParticipants.forEach((participant) => {
-            this.addParticipantToStore(participant)
+            this.addParticipantToStore(participant);
         });
     }
 
@@ -44,8 +44,7 @@ class TwilioRoom extends Component {
             const newParticipants = [...participants];
             newParticipants.push({ identity: participant.identity });
             store.dispatch(setParticipants(newParticipants));
-        };
-
+        }
     }
 
     //Removing participants from store when they leave.

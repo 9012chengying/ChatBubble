@@ -30,7 +30,7 @@ const reducer = (state = initState, action) => {
     case Actions.SET_ROOM_ID:
       return {
         ...state,
-        roomId: action.roomId
+        roomId: action.roomId,
       };
     case Actions.SET_TWILIO_ACCESS_TOKEN:
       return {

@@ -4,7 +4,7 @@ import JoinRoomInputs from "./JoinRoomInputs";
 import {
         setConnectOnlyWithAudio,
         setIdentity,
-        setRoomId
+        setRoomId,
         } from "../store/actions";
 import OnlyWithAudioCheckbox from "./OnlyWithAudioCheckbox";
 import RoomNotFoundMessage from "./RoomNotFoundMessage";
