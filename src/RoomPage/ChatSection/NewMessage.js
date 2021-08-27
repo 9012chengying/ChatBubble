@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SendMessageButton from "../../resources/images/sendMessageButton.svg";
+import {sendMessageUsingDataChannel} from "../../utils/twilioUtils";
 
 const NewMessage = () => {
     const [message, setMessage] = useState("");
@@ -7,6 +8,7 @@ const NewMessage = () => {
     //Send a Message
     const sendMessage = () => {
         // send message to other user
+        sendMessageUsingDataChannel(message, true);
         console.log(message);
         setMessage("");
     };
