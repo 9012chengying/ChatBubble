@@ -101,7 +101,17 @@ export const sendMessageUsingDataChannel = (
         messageCreatedByMe,
     };
     addMessageToMessenger(ownMessage);
+
+
+    const messageToSent ={
+        identity,
+        content
+    };
+
+    const stringMessage = JSON.stringify(messageToSent);
+    dataChannel.send(stringMessage);
 };
+
 
 export  const addMessageToMessenger = (message) => {
     const messages = [...store.getState().messages];
