@@ -5,12 +5,13 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  background-color: aliceblue;
 }
 
 .join_room_page_panel {
   width: 400px;
   height: 400px;
-  background-color: white;
+  background-color: aliceblue;
   border: 1px solid grey;
   filter: drop-shadow(0 0 0.2rem grey);
   display: flex;

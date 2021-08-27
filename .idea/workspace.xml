@@ -8,8 +8,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="can now leave host meeting blank to randomise the meeting id. or input your own.">
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="logo hi res">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroductionPage/IntroductionPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/RoomLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/RoomLabel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630053980328</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="logo hi res">
+      <created>1630054661185</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630054661185</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +324,7 @@
     <MESSAGE value="added camera buttons logic to start/stop camera" />
     <MESSAGE value="hotfix accesstoken url in twilioUtils.js" />
     <MESSAGE value="can now leave host meeting blank to randomise the meeting id. or input your own." />
-    <option name="LAST_COMMIT_MESSAGE" value="can now leave host meeting blank to randomise the meeting id. or input your own." />
+    <MESSAGE value="logo hi res" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo hi res" />
   </component>
 </project>
