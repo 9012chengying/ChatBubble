@@ -5,20 +5,60 @@
   align-items: center;
   justify-content: center;
   background-color: aliceblue;
+  background: url("../resources/images/bg8.jpg") no-repeat center fixed;
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  background-size: cover;
+
 }
 
+
+
+
+/*.introduction_page_panel {*/
+/*  width: 600px;*/
+/*  height: 400px;*/
+/*  background-color: #dde2e6e8;*/
+/*  !*background-color: #f0f8fff2;*!*/
+/*  !*border: 2px solid grey;*!*/
+/*  !*filter: drop-shadow(0 0 0.2rem grey);*!*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: space-evenly;*/
+/*  border-radius: 300px;*/
+/*}*/
+
+
 .introduction_page_panel {
-  width: 600px;
-  height: 400px;
-  background-color: aliceblue;
-  border: 2px solid grey;
-  filter: drop-shadow(0 0 0.2rem grey);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 300px;
+width: 400px;
+height: 400px;
+background-color: #f0f8ffc4;
+border: 1px solid grey;
+filter: drop-shadow(0 0 0.2rem grey);
+display: flex;
+flex-direction: column;
+align-items: center;
+  border-radius: 40px;
+
 }
+
+
+@media screen and (max-width: 800px) {
+  .introduction_page_panel {
+    width: 600px;
+    height: 400px;
+    background-color: #f0f8fff2;
+    /*border: 2px solid grey;*/
+    /*filter: drop-shadow(0 0 0.2rem grey);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+  }
+}
+
 
 .introduction_page_image {
   width: 150px;
@@ -30,7 +70,7 @@
 }
 
 .join_room_button {
-  background-color: #2d8cff;
+  background-color: #407c91;
   border: 1px solid #e5e5e5;
   color: white;
   font-size: 13px;
@@ -42,7 +82,7 @@
 }
 
 .join_room_button:hover {
-  background-color: blue;
+  background-color: #4e5c5b;
 }
 
 .create_room_button {
@@ -61,7 +101,13 @@
   background-color: #e5e5e5;
 }
 
+/*.title{*/
+/*font-family: unset;*/
+/*color: #166bd5;*/
+/*}*/
+
 .title{
-font-family: unset;
-color: #166bd5;
+  color: black;
+  font-size: 41px;
+  font-weight: 300;
 }
