@@ -8,8 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="csss changes for colour scheme and stuff.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="trying to sort mobile out...">
       <change beforePath="$PROJECT_DIR$/src/RoomPage/ChatSection/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/ChatSection/Messages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testing_a_new_id_system" />
+        <entry key="$PROJECT_DIR$" value="visual_chages_mobile_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630058944701</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="trying to sort mobile out...">
+      <created>1630063136263</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1630063136263</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +336,7 @@
     <MESSAGE value="can now leave host meeting blank to randomise the meeting id. or input your own." />
     <MESSAGE value="logo hi res" />
     <MESSAGE value="csss changes for colour scheme and stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="csss changes for colour scheme and stuff." />
+    <MESSAGE value="trying to sort mobile out..." />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to sort mobile out..." />
   </component>
 </project>
