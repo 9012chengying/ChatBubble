@@ -8,16 +8,20 @@ const NewMessage = () => {
     //Send a Message
     const sendMessage = () => {
         // send message to other user
-        sendMessageUsingDataChannel(message, true);
-        console.log(message);
-        setMessage("");
+        if (message !== '') {
+            sendMessageUsingDataChannel(message, true);
+            console.log(message);
+            setMessage("");
+        }
     };
 
     const handleKeyPressed = (event) => {
         if (event.key === "Enter") {
-            event.preventDefault();
-            //sendMessage To other user
-            sendMessage();
+            if (message !== '') {
+                event.preventDefault();
+                //sendMessage To other user
+                sendMessage();
+            }
         }
     };
 
