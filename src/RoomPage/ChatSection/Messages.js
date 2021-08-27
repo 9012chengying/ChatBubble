@@ -41,12 +41,17 @@ const Message = ({ author, content, sameAuthor, messageCreatedByMe }) => {
         ? "message_right_styles"
         : "message_left_styles";
 
-    return (
-        <div className={`message_container ${alignClass}`}>
-            {!sameAuthor && <p className="message_title">{authorText}</p>}
-            <p className={`message_content ${contentAdditionalStyles}`}>{content}</p>
-        </div>
-    );
+    if (content === '') {
+        const authorText = messageCreatedByMe ? "You" : author;
+        return(null);
+    } else {
+        return (
+            <div className={`message_container ${alignClass}`}>
+                {!sameAuthor && <p className="message_title">{authorText}</p>}
+                <p className={`message_content ${contentAdditionalStyles}`}>{content}</p>
+            </div>
+        );
+    };
 };
 
 const Messages = ({messages}) => {
