@@ -6,23 +6,29 @@ import {connect} from "react-redux";
 import {setTwilioAccessToken} from '../store/actions';
 import {getTokenFromTwilio} from "../utils/twilioUtils";
 import Overlay from "./Overlay";
-
+import { useHistory } from 'react-router-dom';
 import "./RoomPage.css";
 
-
 const RoomPage = (props) => {
-    const { identity, setTwilioAccessTokenAction, showOverlay } =props;
+    const { identity, roomId, setTwilioAccessTokenAction, showOverlay } =props;
+
+        const history = useHistory();
 
     useEffect(() => {
-        // Pass setTwilioAccessTokenAction function to change the store state
-        getTokenFromTwilio(setTwilioAccessTokenAction, identity);
+        if (!identity || !roomId){
+            // eslint-disable-next-line no-restricted-globals
+            history.push("/");
+        } else {
+            // Pass setTwilioAccessTokenAction function to change the store state
+            getTokenFromTwilio(setTwilioAccessTokenAction, identity);
+        }
         },[]);
 
     return (
         <div className="room_container">
-            <ParticipantsSection> </ParticipantsSection>
-            <VideoSection></VideoSection>
-            <ChatSection></ChatSection>
+            <ParticipantsSection />
+            <VideoSection />
+            <ChatSection />
             {showOverlay && <Overlay />}
         </div>
     );
