@@ -10,8 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/VideoSection/TwilioRoom/Participant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/twilioUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/ChatSection/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/ChatSection/NewMessage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +267,35 @@
       <option name="project" value="LOCAL" />
       <updated>1629872759416</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="can now leave host meeting blank to randomise the meeting id. or input your own.">
+      <created>1630053980328</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1630053980328</updated>
+    </task>
+    <task id="LOCAL-00022" summary="logo hi res">
+      <created>1630054661185</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630054661185</updated>
+    </task>
+    <task id="LOCAL-00023" summary="csss changes for colour scheme and stuff.">
+      <created>1630058944701</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1630058944701</updated>
+    </task>
+    <task id="LOCAL-00024" summary="trying to sort mobile out...">
+      <created>1630063136263</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1630063136263</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +334,10 @@
     <MESSAGE value="camera positions sorted with styling and html." />
     <MESSAGE value="added camera buttons logic to start/stop camera" />
     <MESSAGE value="hotfix accesstoken url in twilioUtils.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix accesstoken url in twilioUtils.js" />
+    <MESSAGE value="can now leave host meeting blank to randomise the meeting id. or input your own." />
+    <MESSAGE value="logo hi res" />
+    <MESSAGE value="csss changes for colour scheme and stuff." />
+    <MESSAGE value="trying to sort mobile out..." />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to sort mobile out..." />
   </component>
 </project>

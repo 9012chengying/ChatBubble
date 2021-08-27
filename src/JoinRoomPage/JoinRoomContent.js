@@ -41,8 +41,12 @@ const JoinRoomContent = (props) => {
             }else{
                 setShowRoomNotFoundMessage(true);
             }
-        } else{
-            setRoomIdAction(uuidv4());
+        } else {
+            if (roomIdValue === '') {
+                setRoomIdAction(uuidv4());
+            } else {
+                setRoomIdAction(roomIdValue);
+            }
             history.push('/room');
         }
     };

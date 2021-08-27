@@ -85,7 +85,12 @@ export const checkIfRoomExists = async (roomId) => {
         `https://msc-dessertation-project-2021-7630-dev.twil.io/room-exists?roomId=${roomId}`
     );
 
-    return response.data.roomExists;
+    if (roomId === '') {
+        return false;
+    } else {
+        return response.data.roomExists;
+    }
+
 };
 
 //data channel utils
