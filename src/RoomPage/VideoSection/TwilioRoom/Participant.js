@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AudioTrack from './AudioTrack';
 import VideoTrack from './VideoTrack';
+import {addMessageToMessenger} from "../../../utils/twilioUtils";
 
 //Getting the audio and video tracks
 //mounting for tracks
@@ -29,6 +30,10 @@ class Participant extends Component {
             this.props.participant.on("trackSubscribed", (track) => {
                 if (track.kind === "data") {
                     /// add  chat logic
+                    track.on('message', (data)=> {
+                        addMessageToMessenger(JSON.parse(data));
+                    });
+
                 } else {
                     this.addTrack(track);
                 }
