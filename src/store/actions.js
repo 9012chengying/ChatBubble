@@ -57,6 +57,7 @@ export const setParticipants = (participants) => {
         participants,
     };
 };
+
 export const setMessages = (messages) => {
     return {
         type: Actions.SET_MESSAGES,

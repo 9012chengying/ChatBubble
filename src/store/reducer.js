@@ -8,7 +8,7 @@ const initState = {
   twilioAccessToken:null,
   showOverlay: true,
   participants: [],
-  messages: []
+  messages: [],
 };
 
 const reducer = (state = initState, action) => {
