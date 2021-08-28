@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SwitchImg from "../../resources/images/switchToScreenSharing.svg";
+// import SwitchImg from "../../resources/images/ScreenSharing.svg";
 import {LocalVideoTrack} from "twilio-video";
 import LocalScreenSharingPreview from "./LocalScreenSharingPreview";
 

@@ -15,7 +15,7 @@ class TwilioRoom extends Component {
         );
 
         this.state = {
-            remoteParticipants: remoteParticipants
+            remoteParticipants: remoteParticipants,
         };
 
         remoteParticipants.forEach((participant) => {
@@ -47,15 +47,6 @@ class TwilioRoom extends Component {
         }
     }
 
-    //Removing participants from store when they leave.
-    //Checks to find the participant to remove.
-    removeParticipantFromStore(participant) {
-        const participants = store
-            .getState()
-            .participants.filter((p) => p.identity !== participant.identity);
-        store.dispatch(setParticipants(participants));
-    }
-
     //When participant join will console log the person joining.
     //Will set state for that person.
     addParticipant(participant) {
@@ -67,13 +58,23 @@ class TwilioRoom extends Component {
         });
     }
 
+    //Removing participants from store when they leave.
+    //Checks to find the participant to remove.
+    removeParticipantFromStore(participant) {
+        const participants = store
+            .getState()
+            .participants.filter((p) => p.identity !== participant.identity);
+        store.dispatch(setParticipants(participants));
+    }
+
     //When leaving will set state for that person.
     //Again loops through to find correct person.
     removeParticipant(participant) {
         console.log(`${participant.identity} has left the room`);
         this.removeParticipantFromStore(participant);
         this.setState({
-            remoteParticipants: this.state.remoteParticipants.filter((p) => p.identity !== participant.identity),
+            remoteParticipants: this.state.remoteParticipants.filter(
+                (p) => p.identity !== participant.identity),
         });
     }
 
@@ -83,10 +84,16 @@ class TwilioRoom extends Component {
         return(
             <div className='room'>
                 <div className='participants'>
-                    <Participant key={this.props.room.localParticipant.identity} localParticipant participant={this.props.room.localParticipant} />
+                    <Participant
+                        key={this.props.room.localParticipant.identity}
+                        localParticipant
+                        participant={this.props.room.localParticipant} />
                     {this.state.remoteParticipants.map((participant) => {
                         return (
-                        <Participant key={participant.identity} participant={participant} />
+                        <Participant
+                            key={participant.identity}
+                            participant={participant}
+                        />
                         );
                     })}
                 </div>
