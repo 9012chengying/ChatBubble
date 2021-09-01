@@ -10,6 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Development_NEW" />
+        <entry key="$PROJECT_DIR$" value="Mobile_Version_Resolution_Fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

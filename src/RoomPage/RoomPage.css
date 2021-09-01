@@ -443,7 +443,8 @@
     .videos_container {
         height: 50% !important;
         width: 100%;
-        background-color: white !important;
+        /*background-color: white !important;*/
+        background-color: #f6f9fb;
         position: relative;
         border-radius: 0px 0px 25px 25px;
     }
