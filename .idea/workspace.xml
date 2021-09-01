@@ -10,7 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/JoinRoomPage/JoinRoomPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/ChatSection/ChatLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/ChatSection/ChatLabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/ChatSection/NewMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/ChatSection/NewMessage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -94,30 +95,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources/images" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\store" />
       <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\JoinRoomPage" />
+      <recent name="D:\Cardiff University PG Courses\Dissertation\project\msc-dissertation-project-2021\src\IntroductionPage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/resources/images" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -140,6 +128,8 @@
       <workItem from="1629737745597" duration="12749000" />
       <workItem from="1629862396702" duration="4100000" />
       <workItem from="1629983119516" duration="7717000" />
+      <workItem from="1630408696506" duration="1889000" />
+      <workItem from="1630428836353" duration="11152000" />
     </task>
     <task id="LOCAL-00001" summary="add IntroductionPage.js, can jump to different pages">
       <created>1629739419604</created>
@@ -281,7 +271,35 @@
       <option name="project" value="LOCAL" />
       <updated>1629872759416</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="can now leave host meeting blank to randomise the meeting id. or input your own.">
+      <created>1630053980328</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1630053980328</updated>
+    </task>
+    <task id="LOCAL-00022" summary="logo hi res">
+      <created>1630054661185</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630054661185</updated>
+    </task>
+    <task id="LOCAL-00023" summary="csss changes for colour scheme and stuff.">
+      <created>1630058944701</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1630058944701</updated>
+    </task>
+    <task id="LOCAL-00024" summary="trying to sort mobile out...">
+      <created>1630063136263</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1630063136263</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +338,10 @@
     <MESSAGE value="camera positions sorted with styling and html." />
     <MESSAGE value="added camera buttons logic to start/stop camera" />
     <MESSAGE value="hotfix accesstoken url in twilioUtils.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix accesstoken url in twilioUtils.js" />
+    <MESSAGE value="can now leave host meeting blank to randomise the meeting id. or input your own." />
+    <MESSAGE value="logo hi res" />
+    <MESSAGE value="csss changes for colour scheme and stuff." />
+    <MESSAGE value="trying to sort mobile out..." />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to sort mobile out..." />
   </component>
 </project>
