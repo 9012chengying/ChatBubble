@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import logo from "../resources/images/logo.png"
+import logo from "../resources/images/logo1.png"
 import ConnectingButtons from "./ConnectingButtons";
 import { connect } from "react-redux";
 import {setIsRoomHost} from "../store/actions";
