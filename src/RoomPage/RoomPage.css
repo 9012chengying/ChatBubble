@@ -229,7 +229,6 @@
         align-content: flex-start;
         height: 200px;
         overflow-x: hidden;
-        overflow-y: scroll;
     }
 }
 .participants_container {
@@ -504,9 +503,19 @@
     height: 100%;
 }
 
+@media only screen and (max-width: 700px) {
+    video {
+        width: 98%;
+        height: 23% !important;
+        margin-right: 0px !important;
+
+    }
+}
+
 video {
     width: 98%;
     height: 98%;
+    margin-right: 65px;
 }
 
 .room_label {
