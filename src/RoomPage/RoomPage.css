@@ -515,7 +515,7 @@
 video {
     width: 98%;
     height: 98%;
-    margin-right: 65px;
+    /*margin-right: 65px;*/
 }
 
 .room_label {
