@@ -1,7 +1,7 @@
 import React from 'react';
 
 const JoinRoomTitle = ({isRoomHost}) => {
-    const titleText = isRoomHost ? 'Host meeting' : 'Join meeting';
+    const titleText = isRoomHost ? 'Host A Meeting' : 'Join A Meeting';
 
     return <p className='join_room_title'>{titleText}</p>;
 };
