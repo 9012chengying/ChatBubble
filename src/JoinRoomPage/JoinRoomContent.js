@@ -26,6 +26,7 @@ const JoinRoomContent = (props) => {
 
 
     const search = useLocation().search;
+
     var newIdValue = ''
     const idRoomJoin = new URLSearchParams(search).get("id");
         if (idRoomJoin !== null){
@@ -34,8 +35,16 @@ const JoinRoomContent = (props) => {
         console.log(newIdValue);
 
 
+    var nameInput = ''
+        const nameRouteing = new URLSearchParams(search).get("name");
+            if (nameRouteing !== null){
+                nameInput = nameRouteing;
+            };
+            console.log(nameInput);
+
+
     const [roomIdValue, setRoomIdValue] = useState(newIdValue);
-    const [nameValue, setNameValue] = useState("");
+    const [nameValue, setNameValue] = useState(nameInput);
     const [showRoomNotFoundMessage, setShowRoomNotFoundMessage] = useState(false);
 
     const history = useHistory();
