@@ -12,6 +12,7 @@ import JoinRoomButtons from "./JoinRoomButtons";
 import {useHistory} from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import { checkIfRoomExists } from "../utils/twilioUtils";
+import { useLocation } from "react-router-dom";
 
 const JoinRoomContent = (props) => {
     const {
@@ -23,7 +24,17 @@ const JoinRoomContent = (props) => {
         setShowLoadingOverlay,
     } = props;
 
-    const [roomIdValue, setRoomIdValue] = useState("");
+
+    const search = useLocation().search;
+    var newIdValue = ''
+    const idRoomJoin = new URLSearchParams(search).get("id");
+        if (idRoomJoin !== null){
+            newIdValue = idRoomJoin;
+        };
+        console.log(newIdValue);
+
+
+    const [roomIdValue, setRoomIdValue] = useState(newIdValue);
     const [nameValue, setNameValue] = useState("");
     const [showRoomNotFoundMessage, setShowRoomNotFoundMessage] = useState(false);
 
