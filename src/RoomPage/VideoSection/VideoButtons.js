@@ -4,6 +4,7 @@ import MicButton from "./MicButton";
 import CameraButton from "./CameraButton";
 import LeaveRoomButton from "./LeaveRoomButton";
 import SwitchToScreenSharingButton from "./SwitchToScreenSharingButton";
+import ChatBoxButton from "./ChatBoxButton";
 
 const VideoButtons = (props) => {
     const { room, connectOnlyWithAudio } = props;
@@ -14,6 +15,7 @@ const VideoButtons = (props) => {
             {!connectOnlyWithAudio && <CameraButton room={room} />}
             <LeaveRoomButton room={room} />
             <SwitchToScreenSharingButton room={room} />
+            <ChatBoxButton room={room} />
         </div>
     );
 };
