@@ -26,7 +26,7 @@ const RoomPage = (props) => {
 
     return (
         <div className="room_container">
-            <ParticipantsSection />
+            {/*<ParticipantsSection />*/}
             <VideoSection />
             <ChatSection />
             {showOverlay && <Overlay />}
