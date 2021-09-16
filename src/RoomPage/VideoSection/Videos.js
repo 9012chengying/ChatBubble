@@ -16,6 +16,7 @@ const Videos = ({ room, setRoom, roomId ,twilioAccessToken}) => {
     return (
         <div className="videos_container">
             <RoomLabel roomId={roomId} />
+            <div id="videos_portal"></div>
             {room && <TwilioRoom room={room} />}
         </div>
     );

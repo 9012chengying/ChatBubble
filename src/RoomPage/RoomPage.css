@@ -1,8 +1,11 @@
 .room_container {
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
     display: flex;
     background-color: aliceblue;
+    justify-content: center;
+    /* border: 2px solid red; */
+    position: relative;
 }
 
 
@@ -24,7 +27,9 @@
     width: 20%;
     background-color: aliceblue;
     display: flex;
+    /*display: none;*/
     flex-direction: column;
+    /* border: 1px solid red; */
 }
 
 @media only screen and (max-width: 700px) {
@@ -266,6 +271,7 @@
 }
 @media only screen and (max-width: 700px) {
     .participants_section_container {
+        /* border: 1px solid red; */
         height: 33% !important;
         width: fit-content !important;
         /*background-color: white !important;*/
@@ -275,7 +281,8 @@
 }
 
 .participants_section_container {
-    height: 100%;
+    /*height: 100%;*/
+    height: 40%;
     width: 15%;
     background-color: aliceblue;
     display: flex;
@@ -339,8 +346,8 @@
 
 
 .video_buttons_container {
-    /*width: 45%;*/
-    width: inherit;
+    width: 100%;
+    /*width: inherit;*/
     height: 8%;
     display: flex;
     align-items: center;
@@ -389,8 +396,9 @@
 }
 
 .video_button_image {
-    height: 80%;
+    /* height: 80%; */
     padding: 10px;
+    width: 20px;
     /*border-radius: 25px;*/
     transition: 0.3s;
 }
@@ -455,6 +463,10 @@
     background-color: #f6f9fb;
     position: relative;
     border-radius: 0px 0px 25px 25px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .participants {
@@ -500,7 +512,7 @@
 
 .room {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 @media only screen and (max-width: 700px) {
@@ -525,6 +537,7 @@ video {
     justify-content: center;
     z-index: 4;
     height: 7%;
+    top: 0;
 }
 
 @media only screen and (max-width: 700px) {
@@ -560,8 +573,8 @@ video {
 
 .video_track_container:first-child:nth-last-child(2),
 .video_track_container:first-child:nth-last-child(2) ~ .video_track_container {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .video_track_container:first-child:nth-last-child(3),
@@ -608,9 +621,11 @@ video {
 
 .video_section_container {
     height: 100%;
-    width: 65%;
+    width: max-content;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    /* border: 2px solid red; */
 }
 
 
