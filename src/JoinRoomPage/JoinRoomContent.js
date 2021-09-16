@@ -32,7 +32,6 @@ const JoinRoomContent = (props) => {
         if (idRoomJoin !== null){
             newIdValue = idRoomJoin;
         };
-        console.log(newIdValue);
 
 
     var nameInput = ''
@@ -40,7 +39,6 @@ const JoinRoomContent = (props) => {
             if (nameRouteing !== null){
                 nameInput = nameRouteing;
             };
-            console.log(nameInput);
 
 
     const [roomIdValue, setRoomIdValue] = useState(newIdValue);

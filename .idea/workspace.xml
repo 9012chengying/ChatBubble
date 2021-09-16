@@ -8,9 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="hotfix accesstoken url in twilioUtils.js">
+    <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="spelling eror">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/twilioUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/twilioUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,12 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="main" type="f1a62948:ProjectNode" />
+                <item name="msc-dissertation-project-2021" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="msc-dissertation-project-2021" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -47,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="VideoChatApp-Service" />
+        <entry key="$PROJECT_DIR$" value="url_linking_routing_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,11 +115,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -297,11 +298,63 @@
       <option name="project" value="LOCAL" />
       <updated>1630063136263</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixed messages more">
+      <created>1630884978203</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1630884978203</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fixed position of screen share window.">
+      <created>1630885160793</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1630885160793</updated>
+    </task>
+    <task id="LOCAL-00027" summary="first attempt, sorta works...">
+      <created>1630891037743</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1630891037743</updated>
+    </task>
+    <task id="LOCAL-00028" summary="actually working this time.... id in route to auto fill the id .">
+      <created>1630896199204</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1630896199204</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added a name route as well&#10;default is blank but might be useful for the client.">
+      <created>1630896478001</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1630896478001</updated>
+    </task>
+    <task id="LOCAL-00030" summary="spelling eror">
+      <created>1630897380099</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1630897380099</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -316,11 +369,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add IntroductionPage.js, can jump to different pages" />
-    <MESSAGE value="add JoinPage,and some other functional buttons" />
-    <MESSAGE value="add title to join room page" />
-    <MESSAGE value="Change title" />
-    <MESSAGE value="add input box to join room page" />
     <MESSAGE value="add audio check box" />
     <MESSAGE value="add message if room not exists" />
     <MESSAGE value="create join &amp; cancel buttons" />
@@ -340,6 +388,12 @@
     <MESSAGE value="logo hi res" />
     <MESSAGE value="csss changes for colour scheme and stuff." />
     <MESSAGE value="trying to sort mobile out..." />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to sort mobile out..." />
+    <MESSAGE value="fixed messages more" />
+    <MESSAGE value="fixed position of screen share window." />
+    <MESSAGE value="first attempt, sorta works..." />
+    <MESSAGE value="actually working this time.... id in route to auto fill the id ." />
+    <MESSAGE value="Added a name route as well&#10;default is blank but might be useful for the client." />
+    <MESSAGE value="spelling eror" />
+    <option name="LAST_COMMIT_MESSAGE" value="spelling eror" />
   </component>
 </project>
