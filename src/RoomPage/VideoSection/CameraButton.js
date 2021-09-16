@@ -28,7 +28,8 @@ const CameraButton = ({ room }) => {
     };
 
     return (
-        <div className="video_button_container">
+        <div className="video_button_container tooltip">
+            <span class="tooltiptext">Camera Toggle</span>
             <img
                 src={isLocalVideoTrackDisabled ? CameraButtonImgOff : CameraButtonImg}
                 className="video_button_image"

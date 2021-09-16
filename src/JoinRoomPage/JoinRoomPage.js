@@ -21,7 +21,6 @@ const JoinRoomPage = (props) => {
     }
   }, []);
 
-  console.log(isRoomHost);
 
   const [showLoadingOverlay,setShowLoadingOverlay] = useState(false);
 

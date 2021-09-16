@@ -42,7 +42,8 @@ const SwitchToScreenSharingButton = ({ room }) => {
 
     return (
         <>
-        <div className="video_button_container">
+        <div className="video_button_container tooltip">
+            <span class="tooltiptext">Screen Share</span>
             <img
                 src={SwitchImg}
                 onClick={handleScreenSharingEnabling}
