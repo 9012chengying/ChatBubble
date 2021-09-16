@@ -1,21 +1,21 @@
-import React from "react";
-import ChatImg from "../../resources/images/camera.svg";
+import React, {useState} from "react";
+import ChatImg from "../../resources/images/chatbox.svg";
+import ChatSection from "../ChatSection/ChatSection";
 
-const ChatBoxButton = ({ room }) => {
-    const handleRoomDisconnection = () => {
-        room.disconnect();
-        // handle disconnection with room
-        const siteUrl = window.location.origin;
-        window.location.href = siteUrl;
-    };
+const ChatBoxButton = ({ room, handleShow }) => {
+    const [show, setShow] = useState(false)
+    // const onClick = () => setShow((preShow) => {
+    //     return !preShow;
+    // })
 
     return (
         <div className="video_button_container">
             <img
                 src={ChatImg}
-                onClick={ChatBoxButton}
+                onClick={handleShow}
                 className="video_button_image"
             />
+            {show ? <ChatSection />:null}
         </div>
     );
 };

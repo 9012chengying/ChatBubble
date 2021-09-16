@@ -1,4 +1,4 @@
-import React , {useEffect} from "react";
+import React , {useEffect, useState} from "react";
 import ParticipantsSection from "./ParticipantsSection/ParticipantsSection";
 import VideoSection from "./VideoSection/VideoSection";
 import ChatSection from "./ChatSection/ChatSection";
@@ -12,7 +12,12 @@ import "./RoomPage.css";
 const RoomPage = (props) => {
     const { identity, roomId, setTwilioAccessTokenAction, showOverlay } =props;
 
-        const history = useHistory();
+    const history = useHistory();
+
+    const [show, setShow] = useState(true)
+    const handleShow = () => setShow((preShow) => {
+        return !preShow;
+    })
 
     useEffect(() => {
         if (!identity || !roomId){
@@ -26,9 +31,10 @@ const RoomPage = (props) => {
 
     return (
         <div className="room_container">
-            {/*<ParticipantsSection />*/}
-            <VideoSection />
-            <ChatSection />
+
+            {/* <ParticipantsSection /> */}
+            <VideoSection handleShow={handleShow} />
+            {show && <ChatSection />}
             {showOverlay && <Overlay />}
         </div>
     );
