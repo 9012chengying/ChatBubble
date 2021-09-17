@@ -12,7 +12,7 @@
 
 @media only screen and (max-width: 700px) {
     .chat_section_container {
-        height: 33% !important;
+        height: 70% !important;
         width: fit-content !important;
         /*background-color: white !important;*/
         display: flex;
@@ -71,10 +71,10 @@
         border-radius: 60px;
         margin-top: 200px;
         padding: 4px 3px !important;
-        height: 26px !important;
+        height: 44px !important;
         font-size: 11px !important;
-        width: 74% !important;
-        margin-bottom: 120px;
+        width: 77% !important;
+        margin-bottom: 205px;
         margin-right: 26px;
         box-shadow: 10px 27px 0px rgba(0, 82, 201, 0.00) !important;
     }
@@ -103,8 +103,8 @@
 @media only screen and (max-width: 700px) {
     .new_message_button {
             position: absolute;
-            top: 82%;
-            left: 81%;
+            top: 41%;
+            left: 85%;
     }
 }
 
@@ -154,6 +154,16 @@
     font-size: 16px;
     font-weight: 500;
     display: block;
+}
+@media only screen and (max-width: 700px) {
+    .message_title {
+        margin: 0 0 10px 0;
+        padding: 0 10px;
+        color: black;
+        font-size: 12px !important;
+        font-weight: 500;
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -347,7 +357,7 @@
 
 
 .video_buttons_container {
-    width: 100%;
+    width: 80%;
     /*width: inherit;*/
     height: 8%;
     display: flex;
@@ -449,10 +459,10 @@
 
 @media only screen and (max-width: 700px){
     .videos_container {
-        height: 50% !important;
+        /*height: 100% !important;*/
         width: 100%;
         /*background-color: white !important;*/
-        background-color: #f6f9fb;
+        background-color: black !important;
         position: relative;
         border-radius: 0px 0px 25px 25px;
     }
@@ -661,4 +671,13 @@ video {
     .tooltip:hover .tooltiptext {
       visibility: visible;
     }
+@media only screen and (max-width: 700px) {
+    .tooltip:hover .tooltiptext {
+        /*visibility: visible;*/
+        display: none!important;
+        background: black;
+        padding: 10px;
+        border-radius: 14px;
+    }
+}
 /* END */
