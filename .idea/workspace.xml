@@ -9,6 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b4a9d5-07b3-4384-87da-dbd0941dbc75" name="Default Changelist" comment="spelling eror">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoomPage/RoomPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="url_linking_routing_2" />
+        <entry key="$PROJECT_DIR$" value="Mobile_Version_New" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,6 +109,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,6 +128,7 @@
       <workItem from="1629983119516" duration="7717000" />
       <workItem from="1630408696506" duration="1889000" />
       <workItem from="1630428836353" duration="12441000" />
+      <workItem from="1632048351168" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="add IntroductionPage.js, can jump to different pages">
       <created>1629739419604</created>
