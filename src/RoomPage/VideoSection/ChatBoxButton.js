@@ -9,7 +9,8 @@ const ChatBoxButton = ({ room, handleShow }) => {
     // })
 
     return (
-        <div className="video_button_container">
+        <div className="video_button_container tooltip">
+            <span class="tooltiptext">Chat Toggle</span>
             <img
                 src={ChatImg}
                 onClick={handleShow}
