@@ -280,7 +280,7 @@
 .participants_paragraph {
     color: black;
     text-align: start;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 40px;
 }
 
@@ -289,9 +289,24 @@
     height: 2px;
     background-color: #e5e5e5;
     margin-left: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: -10px;
+    margin-bottom: -22px;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .participants_separator_line {
+        width: calc(100% - 80px);
+        height: 2px;
+        background-color: #e5e5e5;
+        margin-left: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
+
 @media only screen and (max-width: 700px) {
     .participants_section_container {
         /* border: 1px solid red; */
